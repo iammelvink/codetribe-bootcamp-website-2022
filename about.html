@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name"desciprion" content="Melvin Kisten Assignment Intro">
+    <meta name"author" content="Melvin Kisten">
+    <meta name"keywords" content="HTML, mLab, help, about">
+    <title>About me</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <table class="headerTable">
+            <tr>
+                <td>
+                    <a href="index.html">
+                        <img id="logo" src="https://picsum.photos/id/1058/200/200" alt="Logo">
+                    </a>
+                </td>
+                <td align="right">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About me</a>
+                        <a href="contact.html">Contact me</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+
+    <main>
+        <table id="mainTable">
+            <tr>
+                <td width="50%" align="center">
+                    <div id="bioBox">
+                        <h1 class="userName">About me</h1>
+                        <p class="userText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat eveniet deserunt adipisci hic quasi, aut distinctio beatae id. Aliquam sapiente nobis tempora. Repellendus quam minima magnam provident temporibus impedit eius qui aspernatur necessitatibus minus sequi delectus, nostrum, dolor consectetur voluptate exercitationem, quas perspiciatis quia mollitia architecto officia soluta. Libero, adipisci.</p>
+                        <input class="btn" type="button" value="Read more...">
+                    </div>
+                </td>
+                <td align="right">
+                    <img id="userImage" src="https://picsum.photos/id/1060/500/500" alt="User Image">
+                </td>
+            </tr>
+        </table>
+
+    </main>
+
+    <footer>
+        <table class="headerTable footerTable">
+            <tr align="center">
+                <td>
+                    Copyright &copy; <span id="copyright-year">2022</span>
+                    Melvin Kisten. All rights reserved
+                    <script>
+                        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+                    </script>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

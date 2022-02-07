@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name"desciprion" content="Melvin Kisten Assignment Intro">
+    <meta name"author" content="Melvin Kisten">
+    <meta name"keywords" content="HTML, mLab, help, contact">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/script.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <table class="headerTable">
+            <tr>
+                <td>
+                    <a href="index.html">
+                        <img id="logo" src="https://picsum.photos/id/1058/200/200" alt="Logo">
+                    </a>
+                </td>
+                <td align="right">
+                    <nav>
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About me</a>
+                        <a href="contact.html">Contact me</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <main>
+        <h1>Contact me</h1>
+        <input placeholder="Email" type="email" name="email" id="email">
+        <input placeholder="Password" type="password" name="password" id="password">
+        <input type="button" value="Submit">
+
+        <input type="file" name="file" id="file">
+
+        <textarea placeholder="Type description here..." name="texta" id="texta" cols="64" rows="20"></textarea>
+
+    </main>
+    <footer>
+        <table class="headerTable footerTable">
+            <tr align="center">
+                <td>
+                    Copyright &copy; <span id="copyright-year">2022</span>
+                    Melvin Kisten. All rights reserved
+                    <script>
+                        document.querySelector('#copyright-year').innerText = new Date().getFullYear();
+                    </script>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+
+</html>

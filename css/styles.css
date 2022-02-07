@@ -1,0 +1,58 @@
+.headerTable {
+    width: 100%;
+}
+
+#logo {
+    width: 100px;
+    height: auto;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+a {
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+#mainTable {
+    /* width: 80%; */
+    height: 100vh;
+    /* margin-left: 10%; */
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+#userImage {
+    width: 500px;
+    height: 500px;
+}
+
+/* .userName {
+} */
+
+/* .userText {
+} */
+
+.btn {
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#bioBox {
+    text-align: left;
+    width: 70%;
+}
+
+.footerTable {
+    height: 200px;
+    background-color: white;
+}
